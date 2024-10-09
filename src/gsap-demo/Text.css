@@ -1,0 +1,32 @@
+@font-face {
+    font-family:he ;
+    src: url(../../helvetica-255/Helvetica-Bold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:he ;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+main{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    overflow: hidden;
+    display: flex;
+}
+main h1{
+    font-size:4vw;
+    color: #F3C77C;
+}

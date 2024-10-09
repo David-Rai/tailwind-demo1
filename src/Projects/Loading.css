@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.loading{
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-bottom-color:rgb(104, 101, 101) ;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+}

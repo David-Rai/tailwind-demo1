@@ -1,0 +1,79 @@
+@font-face {
+  font-family: hehe;
+  src: url(../../helvetica-255/Helvetica-Bold.ttf);
+}
+* {
+  font-family: hehe;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(26, 24, 24);
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border-radius: 10%;
+}
+button {
+  background: rgb(130, 179, 142);
+  background: linear-gradient(
+    180deg,
+    rgba(130, 179, 142, 1) 0%,
+    rgba(34, 213, 115, 1) 51%
+  );
+  border-radius: 20px;
+  width: 120px;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1rem;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 159, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2{
+    padding: 0px 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+    background-color: #9AC1CB;
+}
+.page2 h1{
+  font-size: 35vw;
+}
+.page3{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(124, 236, 114);
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(56, 51, 51);
+}

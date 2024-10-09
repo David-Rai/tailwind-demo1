@@ -1,0 +1,127 @@
+@font-face {
+    font-family: he;
+    src: url(../../../helvetica-neue-5/HelveticaNeueLight.otf);
+}
+@font-face {
+    font-family: he2;
+    src: url(../../../helvetica-neue-5/HelveticaNeueBlack.otf);
+}
+* {
+    font-family: he;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg:#151414;
+    --c:#F3C77C;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.page1{
+    background-color: var(--bg);
+    height: 100vh;
+    width: 100%;
+}
+.page1 nav{
+    padding: 0px 30px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--c);
+    list-style: none;
+    padding-left:4.5rem ;
+}
+.logo{
+    height: 68%;
+    width: 3.8rem;
+    background-color: #E7CFB1;
+}
+.center{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    height: 85%;
+    width: 100%;
+}
+.text{
+    overflow: hidden;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text span{
+    color: var(--c);
+    font-size: 35vw;
+    font-family: he2;
+    font-weight: 900;
+}
+.section1{
+    height: 25vh;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--c);
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg);
+}
+.page2 video{
+    height: 100%;
+display: block;
+width: 100%;
+}
+.page3{
+    padding: 0px 60px;
+    height: 150vh;
+    width: 100%;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.page3 h1{
+    text-transform: uppercase;
+    font-size: 12vw;
+    color: #E7CFB1;
+}
+.page4{
+    padding: 0px 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+    background-color: #9AC1CB;
+}
+.page4 h1{
+    font-size: 35vw;
+}
+.page5{
+height: 100vh;
+width: 100%;
+background-color: var(--bg);
+}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply h-10 w-28 border-2 text-xl rounded-2xl;
+}
